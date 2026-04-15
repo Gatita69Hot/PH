@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Juego Favorito</title>
+    <title>Mi Juego Favorito - Proyecto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Minecraft: Un mundo de bloques</h1>
+        <h1>Mundo Gaming: Minecraft</h1>
     </header>
 
-    <main>
-        <section class="contenido">
+    <main class="container">
+        <section class="card">
+            <h2>Sobre el juego</h2>
             <p>
-                Minecraft es un juego de mundo abierto donde puedes explorar, 
-                minar recursos y construir cualquier cosa que imagines. Tiene un modo 
-                de supervivencia y un modo creativo para construir sin límites, siendo 
-                uno de los títulos más influyentes de la última década.
+                Minecraft es un juego de mundo abierto que permite a los jugadores construir con una variedad de bloques diferentes en un mundo generado procedimentalmente. Su enfoque en la creatividad y la exploración lo ha convertido en un fenómeno global.
             </p>
         </section>
 
-        <section class="juego-interactivo">
-            <h3>Prueba un minijuego aquí:</h3>
-            <iframe src="https://slither.com/" width="100%" height="500px">
-                Tu navegador no soporta iframes.
-            </iframe>
+        <section class="game-section">
+            <h3>Área de Juego Interactivo (2048)</h3>
+            <div class="iframe-wrapper">
+                <iframe 
+                    src="https://play2048.co/" 
+                    title="Juego 2048">
+                </iframe>
+            </div>
+            <p class="instrucciones">Usa las flechas de tu teclado para jugar una vez que hagas clic dentro del cuadro.</p>
         </section>
 
-        <section class="enlace">
+        <section class="card footer-link">
             <p>
-                Para saber más, visita el 
-                <a href="https://www.minecraft.net" target="_blank">sitio oficial de Minecraft</a>.
+                ¿Quieres saber más? Visita el 
+                <a href="https://www.minecraft.net" target="_blank">Sitio Oficial de Minecraft</a>
             </p>
         </section>
     </main>
